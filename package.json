@@ -1,0 +1,23 @@
+{
+  "name": "zn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --port=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenxiuweiye/zn.git"
+  },
+  "author": "wwh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenxiuweiye/zn/issues"
+  },
+  "homepage": "https://github.com/wenxiuweiye/zn#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

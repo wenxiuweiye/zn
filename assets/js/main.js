@@ -750,11 +750,8 @@ const shellTypes = {
 const shellNames = Object.keys(shellTypes);
 
 function init() {
-	if (LOADING_POINT_TIMER !== null) {
-		clearInterval(LOADING_POINT_TIMER);
-		LOADING_POINT_TIMER = null;
-	}
-	document.querySelector('.time-text').style.opacity = "1";
+
+
 	document.querySelector('#right-bottom-button .parent-button').style.opacity = "1";
 	document.querySelector('.loading-init').remove();
 	document.querySelector('body').classList.remove('loading');
